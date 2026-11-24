@@ -57,6 +57,7 @@ class DefaultFirebaseOptions {
     projectId: 'flow-mob-app-cb6c6',
     storageBucket: 'flow-mob-app-cb6c6.firebasestorage.app',
   );
+
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyBYW6t4rpwljlH5BSG0F7H2P25Bh4HNU8E',
     appId: '1:609189422902:ios:8206f681f379182a63f597',
