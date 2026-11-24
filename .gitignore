@@ -46,3 +46,23 @@ app.*.map.json
 
 # Widget Preview related
 .widget_preview/
+
+# Private credentials; Firebase client configuration is intentionally tracked.
+.env
+.env.*
+!.env.example
+**/*service-account*.json
+**/*service_account*.json
+**/*serviceAccount*.json
+**/*private-key*.json
+**/*private_key*.json
+**/*firebase-adminsdk*.json
+**/*adminsdk*.json
+key.properties
+*.p12
+*.pfx
+*.pem
+*.p8
+*.key
+*.jks
+*.keystore
