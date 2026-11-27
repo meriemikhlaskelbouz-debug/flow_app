@@ -61,6 +61,10 @@ class AuthService {
     await _auth.signOut();
   }
 
+  Future<void> resetPassword({required String email}) async {
+    await _auth.sendPasswordResetEmail(email: email.trim());
+  }
+
   Future<UserModel?> getUserProfile([String? uid]) async {
     final targetUid = uid ?? _auth.currentUser?.uid;
     if (targetUid == null) return null;
